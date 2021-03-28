@@ -1,0 +1,60 @@
+html {
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+	background-color: yellow;
+}
+
+body {
+	/* background-color: #7B68EE; */
+	background-image: url(https://w.wallhaven.cc/full/rd/wallhaven-rddgwm.jpg);
+	width: 800;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+}
+
+table {
+	background-color: #800080;
+}
+
+#product-name td {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	margin: 30px;
+
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h2 {
+	color: white;
+	margin: 30px;
+
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+p, li {
+	color: white;
+	line-height: 2;
+	letter-spacing: 1px;
+
+	text-align: center;
+	margin: 0 auto;
+}
+
+ol {
+	text-align: center;
+	list-style-position: inside;
+}
+
+a[href] {
+	color: green;
+
+}
+
+a:hover {
+	color: white;
+}
