@@ -2,8 +2,12 @@ html {
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
 	background-color: yellow;
+	box-sizing: border-box;
 }
 
+*, *:after, *:before {
+	box-sizing: inherit;
+}
 body {
 	/* background-color: #7B68EE; */
 	background-image: url(https://w.wallhaven.cc/full/rd/wallhaven-rddgwm.jpg);
@@ -13,7 +17,7 @@ body {
 }
 
 table {
-	background-color: #800080;
+	
 }
 
 #product-name td {
@@ -21,19 +25,38 @@ table {
 }
 
 h1 {
+	align-self: center;
 	color: white;
-	margin: 30px;
+	margin: 0px;
+	width: inherit;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 10px 5px;
+	border-left: 2px solid white;
+}
 
+.product-panel h2 {
+	color: black;
+	margin: 10px;
 	text-align: center;
 	letter-spacing: 2px;
 }
+.product-panel {
+	background-color: blue;
+	width: 80%;
+	position: center;
+}
+.product-card {
+	display: inline-block;
+	margin: 10px;
+	padding: 20px;
+	background-color: pink;
+	border-radius: 5px;
+}
 
-h2 {
-	color: white;
-	margin: 30px;
-
+.product-card p {
 	text-align: center;
-	letter-spacing: 2px;
+	font-size: 1.5em;
 }
 
 p, li {
@@ -41,7 +64,7 @@ p, li {
 	line-height: 2;
 	letter-spacing: 1px;
 
-	text-align: center;
+	/* text-align: center; */
 	margin: 0 auto;
 }
 
