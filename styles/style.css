@@ -18,26 +18,7 @@ nav {
 html {
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
-	background-color: yellow;
-}
-
-.container-body {
-	/* background-color: #7B68EE; */
-	background-image: url(https://w.wallhaven.cc/full/rd/wallhaven-rddgwm.jpg);
-	width: 1920px;
-	margin: 0 auto;
-	padding: 0 20px 20px 20px;
-}
-
-.container {
-	margin: 0 auto;
-	padding-left: 30px;
-	padding-right: 30px;
-	width: 1024px;
-}
-
-table {
-	
+	background-color: rgb(255, 255, 255);
 }
 
 #product-name td {
@@ -45,10 +26,10 @@ table {
 }
 
 h1 {
-	align-self: center;
+	/* align-self: center; */
 	color: white;
-	margin: 0px;
-	width: inherit;
+	margin: auto;
+	width: auto;
 	text-align: center;
 	letter-spacing: 2px;
 	padding: 10px 5px;
@@ -68,8 +49,8 @@ h1 {
 .product-card {
 	display: inline-block;
 	width: 33%;
-	/* margin: 10px; */
-	padding: 20px;
+	margin: auto;
+	padding: 10px;
 	background-color: pink;
 	border-radius: 5px;
 }
@@ -83,13 +64,13 @@ p, li {
 	color: white;
 	line-height: 2;
 	letter-spacing: 1px;
-
+	width: auto;
 	/* text-align: center; */
 	margin: 0 auto;
 }
 
 ol {
-	text-align: center;
+	text-align: left;
 	list-style-position: inside;
 }
 
@@ -100,4 +81,19 @@ a[href] {
 
 a:hover {
 	color: white;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 1024px;
+}
+
+.container-body {
+	/* background-color: #7B68EE; */
+	background-image: url(https://w.wallhaven.cc/full/rd/wallhaven-rddgwm.jpg);
+	/*width: 1024px;*/
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
 }
